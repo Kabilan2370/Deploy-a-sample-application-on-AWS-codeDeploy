@@ -1,0 +1,19 @@
+version: 0.0
+
+os: linux
+files:
+  - source: /index.html
+    destination: /var/www/html/
+hooks:
+  BeforInstall:
+  - location: scripts/to_install.sh
+    timeout: 300
+    runas: root
+  - location: scripts/to_start.sh
+    timeout: 300
+    runas: root
+
+ApplicationStop:
+  - location: scripts/to_stop.sh
+    timeout: 300
+    runas: root
