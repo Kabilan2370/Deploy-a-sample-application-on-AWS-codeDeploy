@@ -1,1 +1,3 @@
 # Deploy-a-sample-application-on-AWS-codeDeploy
+Hello Everyone........
+Here,I explained and created ,How deploy a sample application on AWS codedeploy
