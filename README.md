@@ -31,7 +31,7 @@ Here,I explained and created ,How deploy a sample application on AWS codedeploy
 8. Change a file directory permission chmod +x install,To start a install file,
     ./install auto
 
-   [Alt text]([sample_screenshots/8.png](https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html))
+  https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html
 
    
 10. On the main_server machine ,created a 2 directory use cd comment login to dir.
