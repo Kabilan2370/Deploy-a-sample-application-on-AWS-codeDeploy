@@ -22,7 +22,7 @@ Here,I explained and created ,How deploy a sample application on AWS codedeploy
    ![Alt text](sample_screenshots/8.png)
 
    Noticed here I,attached a IAM role which I created.This machine is know as deployment machine.
-<<<<<<< Kabilan2370-patch-1
+
    ![Alt text](https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html)
 
 7. After i download a codedeploy agent,we have a file as a install.This file is important to start adeployment process.
@@ -30,10 +30,9 @@ Here,I explained and created ,How deploy a sample application on AWS codedeploy
 
 8. Change a file directory permission chmod +x install,To start a install file,
     ./install auto
-=======
+
    [Alt text]([sample_screenshots/8.png](https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html))
-   
->>>>>>> main
+
    
 10. On the main_server machine ,created a 2 directory use cd comment login to dir.
    Here,I create a yml file and my code(It is just a html code).I attached a code everything on this repository.
