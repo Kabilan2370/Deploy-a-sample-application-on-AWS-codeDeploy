@@ -22,6 +22,6 @@ Here,I explained and created ,How deploy a sample application on AWS codedeploy
    ![Alt text](sample_screenshots/8.png)
 
    Noticed here I,attached a IAM role which I created.This machine is know as deployment machine.
-   ![Alt text]([sample_screenshots/8.png](https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html))
+   [Alt text]([sample_screenshots/8.png](https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html))
    
    
