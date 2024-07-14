@@ -3,21 +3,21 @@ Hello Everyone........
 Here,I explained and created ,How deploy a sample application on AWS codedeploy
 
 1. From the begning we login into our aws console.Here,we created 2 IAM role.(code-deploy,s3-server-access)
-   
+
    ![Alt text](sample_screeshots/1.png)
 
-2. Then,create a IAM user(assign a CLI access) to push your code on AWS bucket.
+3. Then,create a IAM user(assign a CLI access) to push your code on AWS bucket.
    ![Alt text](sample_screeshots/2.png)
 
-3. Lets,we create a EC2 instance, this machine is push a code from using this machine
+4. Lets,we create a EC2 instance, this machine is push a code from using this machine
    
    ![Alt text](sample_screenshots/5.png)
 
-4. Login into the EC2 machine using ssh port ,when you create a EC2 machine ,don't forget to attach a security group even by mistake. 
+5. Login into the EC2 machine using ssh port ,when you create a EC2 machine ,don't forget to attach a security group even by mistake. 
 
    ![Alt text](sample_screenshots/7.png)
 
-5. To access a aws config ,install this credentials
+6. To access a aws config ,install this credentials
     snap install aws-cli
 
 7. Then ,Launch another EC2 machine for the deploy a sample application
@@ -42,15 +42,15 @@ Here,I explained and created ,How deploy a sample application on AWS codedeploy
    Here,I create a yml file and my code(It is just a html code).I attached a code everything on this repository.
    Into the sample dir, I create a 3 documents to_install.sh, to_start.sh, to_stop.sh
 
-   ![Alt text](sample_screenshots/12.png)
+    ![Alt text](sample_screenshots/12.png)
 
-11. Then,create S3 bucket to store your deployment code
-    
-   ![Alt text](sample_screenshots/14.png)
+12. Then,create S3 bucket to store your deployment code
 
-    Now,I don't have anything in my s3 bucket.
+    ![Alt text](sample_screenshots/14.png)
 
-12. From your main_machine, create application on aws deployment through using this command
+        Now,I don't have anything in my s3 bucket.
+
+13. From your main_machine, create application on aws deployment through using this command
     aws deploy create-application --application-name code_to_deploy
     
     At the same time I push my code in aws s3 bucket through using this command
