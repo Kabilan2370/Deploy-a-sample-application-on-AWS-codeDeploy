@@ -40,7 +40,7 @@ Here,I explained and created ,How deploy a sample application on AWS codedeploy
    ![Alt text](sample_screenshots/12.png)
 
 11. Then,create S3 bucket to store your deployment code
-    ![Alt text](sample_screenshots/14.png)
+   ![Alt text](sample_screenshots/14.png)
 
     Now,I don't have anything in my s3 bucket.
 
@@ -51,10 +51,11 @@ Here,I explained and created ,How deploy a sample application on AWS codedeploy
     aws deploy push --application-name code_to_deploy --s3-location s3://viairtel9345deploy/code_to_deploy.zip
     
     Don't confues ,Because I created application name and pushed repository name both are not same.But steps are sam
-    ![Alt text](sample_screenshots/19.png)
+
+   ![Alt text](sample_screenshots/19.png)
     
 14. Then,click a created application and create new deployment group name.Here,you should attach a remaining one IAM role as code_deploy,leave it as remaining default.
-     ![Alt text](sample_screenshots/26.png)
+    ![Alt text](sample_screenshots/26.png)
 
 15. Create a deployment into the deployment group
     ![Alt text](sample_screenshots/26.png)
@@ -64,7 +65,7 @@ Here,I explained and created ,How deploy a sample application on AWS codedeploy
 
 17. Finally we successfully deploy a sample application.
     ![Alt text](sample_screenshots/31.png)
-   ![Alt text](sample_screenshots/32.png)
+    ![Alt text](sample_screenshots/32.png)
     
      NOTE :
     when i was creating a deployment,I got some error.If you get any error same like this,check you code again.
