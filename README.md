@@ -27,7 +27,7 @@ Here,I explained and created ,How deploy a sample application on AWS codedeploy
 
 8. Noticed here I,attached a IAM role which I created.This machine is know as deployment machine.
 
-       https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html)
+       https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-ubuntu.html
 
 9. After i download a codedeploy agent,we have a file as a install.This file is important to start adeployment process.
     
